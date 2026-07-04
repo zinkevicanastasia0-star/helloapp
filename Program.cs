@@ -2,13 +2,21 @@
 
 internal class Program
 {
-    static void greerWhite()
+    static void Main(string[] args)
+    {
+        Console.WriteLine("hello everyone");
+        greetBlack();
+        greetWhite();
+
+    }
+
+    static void greetWhite()
     {
         Console.WriteLine("hello white");
     }
 
-    static void Main(string[] args)
+    static void greetBlack()
     {
-        Console.WriteLine("hello everyone");
+        Console.WriteLine("hello black");
     }
 }
